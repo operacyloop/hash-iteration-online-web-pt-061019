@@ -8,14 +8,14 @@ We'll use iteration to access and manipulate data from hashes.
 
 1. Distinguish iterating over arrays from iterating over hashes.
 1. Use `#each` to iterate over a hash.
+stored information, but we need to utilize it in some way. This is where
+iteration comes in.
+
 
 ## Iterating Over Hashes
 
 Previously, we've compared hashes to dictionaries or storage containers. Just
 like with these storage methods in real life, not only do we need to access our
-stored information, but we need to utilize it in some way. This is where
-iteration comes in.
-
 Without iteration, we would have to jump through some serious hoops in order to
 access every key/value pair of our hash. We would have to know the key of each
 pair and write something along the following lines:
